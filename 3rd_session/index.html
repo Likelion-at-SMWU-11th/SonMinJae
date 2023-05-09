@@ -15,7 +15,9 @@
                 <h1>MinJae Son</h1>
             </div>
             <h2>ABOUT ME</h2>
-            <p>숙명여자대학교 IT공학전공 20학번 휴학</p>
+            <span>
+                <p>숙명여자대학교 IT공학전공 20학번 휴학</p>
+            </span>
             <ul>
                 <li>나이: 23</li>
                 <li>파트: 프론트엔드</li>
@@ -49,6 +51,104 @@
                     </div>
                   </div>
                 </div>
+              </div>
+        </section>
+        <section>
+            <h2>CONTENTS</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      HTML이란?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>“Hyper Text Markup Language”</strong>의 약자로 웹페이지를 구조를 설계 할 때 사용되는 언어이다. 현재는 HTML5 버전이 사용되고 있다.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      CSS란?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>“Cascading Style Sheets”</strong>의 약자로 웹에 사용할 스타일을 명시해둔 일종의 스타일 명세서이다.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      구글 웹 폰트
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        'Google Fonts'에 접속하여 원하는 폰트를 import해와 사용할 수 있다. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        부트스트랩
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        웹 사이트의 꾸밈 요소들을 활용하여 웹사이트를 쉽게 꾸밀 수 있도록 돕는 도구 서비스이다. 화면에 요소가 나타나는 방식(애니메이션 효과)나, 색깔 변화 등의 효과는 자바스크립트로 표현한다. 그 효과를 적용시키기 위해서는 다음의 자바스크립트 코드도 추가해줘야 한다.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <section>
+            <h2>THESE DAYS</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./01.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>SSG 랜더스 VS 두산 베어스<br/>야구 경기 직관</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./02.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>친구들 만나기</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./03.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>닭발 먹으러 가기</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./04.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>생일파티 즐기기</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

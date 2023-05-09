@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Noto+Sans+KR:wght@100;400;700&display=swap');
 
 * {
     font-family: 'Noto Sans KR', sans-serif;
@@ -11,6 +12,10 @@ body, h1, h2 {
 
 body {
     min-width: fit-content;
+}
+
+section {
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -41,4 +46,15 @@ h2 {
 .title-box {
     text-align: right;
     margin-bottom: 20px;
+}
+
+#carouselExampleControls {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-caption > p  {
+    font-size: 20px;
+    font-family: 'Dongle';
 }
