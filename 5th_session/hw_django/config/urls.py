@@ -21,4 +21,4 @@ from demos.views import helloBabyLion
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('crazy/', helloBabyLion),
-] 
+]
