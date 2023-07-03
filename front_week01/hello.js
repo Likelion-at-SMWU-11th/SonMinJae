@@ -10,4 +10,4 @@ function loggedIn(event){
     hello.classList.remove("hidden");
 }
 
-loginForm.addEventListener("complete", loggedIn);   // "complete" 이벤트 만들기
+loginForm.addEventListener("submit", loggedIn);   // "submit" 이벤트 만들기
